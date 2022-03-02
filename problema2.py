@@ -19,6 +19,7 @@ def insertar(n1,n2,n3,n4,n5,media,mediana,moda,rango,desviacion,varianza):
     conexion.commit()
     print('Datos incertados correctamente')
 x=0
+##comentario x=1
 while x==0:
     print('ingrese 1 para notas')
     print('ingrese 2 para historial')
