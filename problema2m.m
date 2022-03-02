@@ -12,4 +12,5 @@ moda=mode(notas)
 rango=max(notas)-min(notas)
 desviacion=std(notas)
 varianza=var(notas)
+#'\* comentario 
 N=pq_exec_params(conn, "insert into pexamen2 (n1, n2, n3, n4, n5, media, mediana, moda, rango, desviacion, varianza) values($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11);",{n1, n2, n3, n4, n5, media, mediana, moda, rango, desviacion, varianza})
