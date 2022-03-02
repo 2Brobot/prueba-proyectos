@@ -17,7 +17,7 @@ def insertar(numero,tipo):
     cursor.execute("INSERT INTO pexamen4(numero, tipo) VALUES(%s,%s);",(numero,tipo))
     conexion.commit()
     print('Datos incertados correctamente')
-
+## Comentario
 x=0
 while x==0:
     print('1. ingresar')
