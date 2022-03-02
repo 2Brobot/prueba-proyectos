@@ -14,7 +14,7 @@ disp("Es primo")
 N=pq_exec_params(conn, "insert into pexamen4 (numero, tipo) values($1, $2);",{numero,tipo})
 endif
 if (contador>2)
-disp("Es compuesto")
+disp("Es compuesto---------------aaa------------------")
 tipo="compuesto"
 N=pq_exec_params(conn, "insert into pexamen4 (numero, tipo) values($1, $2);",{numero,tipo})
 endif
