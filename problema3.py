@@ -31,7 +31,7 @@ while x==0:
         x=0
     elif comando=='2':
         x=1
-        sql = 'SELECT*FROM pexamen2;'
+        sql = 'SELECT*FROM pexamen3;'
         cursor = conexion.cursor()
         cursor.execute(sql)
         valores = cursor.fetchall()
